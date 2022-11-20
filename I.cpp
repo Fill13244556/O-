@@ -24,7 +24,7 @@ int RingS(double R1, double R2) {
   
 }
 int TriangleP(double a, double h) { 
-	double B = sqrt(pow(a / 2), 2 + pow(h), 2); 
+	double B = sqrt(pow(a / 2, 2) + pow(h, 2)); 
 	return B; 
  }*/
 int sum = 0; 
